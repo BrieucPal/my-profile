@@ -1,0 +1,129 @@
+/*Colors and fonts*/
+
+
+body{
+  background-color: rgba(230, 230, 230,1.0);
+  color: rgb(50, 50, 50);
+  font-family: 'Lora', serif;
+  font-size: 22px;
+  font-weight: lighter;
+
+}
+
+h1,h2{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,a{
+  color:rgba(48, 122, 153,1.0);
+}
+
+h1{
+  font-weight: 900;
+  letter-spacing: 9px;
+  line-height: 1.6;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+h2{
+  color: rgba(80, 80, 80);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 625;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+a:hover {
+color:rgba(70, 30, 184, 1);
+}
+
+/* Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.box-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0,.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+ }
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.button-blue {
+  background-color:rgb(48, 122, 153);
+  color:white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.button-blue:hover {
+ background-color: rgb(48, 122, 155,0.7);
+ color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+  color: rgb(235,235,235,0.7);
+}
+
+#intro p{
+ margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
